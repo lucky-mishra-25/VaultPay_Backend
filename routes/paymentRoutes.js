@@ -70,10 +70,10 @@ router.post(
             mode: "payment",
 
             success_url:
-              "http://localhost:3000/success",
+              "https://vaultpay.vercel.app/success",
 
             cancel_url:
-              "http://localhost:3000/cancel",
+              "https://vaultpay.vercel.app/cancel",
 
             metadata: {
               invoiceId:
